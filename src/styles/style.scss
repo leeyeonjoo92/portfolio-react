@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@import "setting/fonts";
+@import "setting/vars";
+@import "setting/reset";
+@import "setting/mixin";
+
+@import "section/bgeffect.scss";
+@import "section/header.scss";
+@import "section/intro.scss";
+@import "section/about.scss";
+@import "section/project.scss";
+@import "section/projectintro.scss";
+@import "section/footer.scss";

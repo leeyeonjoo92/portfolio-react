@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectIntro = () => {
 	return (
-		<div>ProjectIntro</div>
+		<div id="projectintro">ProjectIntro</div>
 	)
 }
 

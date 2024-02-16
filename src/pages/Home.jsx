@@ -1,4 +1,5 @@
 import React from "react";
+import BgEffect from "../component/BgEffect";
 import Header from "../component/Header";
 import Main from "../component/Main";
 import Intro from "../component/Intro";
@@ -10,6 +11,7 @@ import Footer from "../component/Footer";
 const Home = () => {
 	return (
 		<>
+			<BgEffect/>
 			<Header/>
 			<Main>
 				<Intro/>

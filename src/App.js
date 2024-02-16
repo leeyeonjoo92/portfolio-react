@@ -1,8 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./pages/Home";
+import smooth from "./utils/smooth";
 
 const App = () => {
+	useEffect(() => {
+		smooth();
+	}, []);
+
   return (
     <BrowserRouter>
 			<Routes>

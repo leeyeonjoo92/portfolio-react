@@ -1,0 +1,53 @@
+html {
+	font-family: "Pretendard";
+	font-size: 62.5%;
+	line-height: 1.285;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+html * {
+	vertical-align: middle;
+	box-sizing: border-box;
+	word-break: break-all;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body::-webkit-scrollbar {
+	width: 11px;
+}
+body::-webkit-scrollbar-thumb {
+	height: 20%;
+	background: #ff6c3a;
+	border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a,
+a:hover,
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+#main div {
+	height: 500px;
+}
