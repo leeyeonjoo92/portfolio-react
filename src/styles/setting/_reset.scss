@@ -1,5 +1,4 @@
 html {
-	font-family: "Pretendard";
 	font-size: 62.5%;
 	line-height: 1.285;
 	width: 100%;
@@ -13,6 +12,7 @@ html * {
 }
 
 body {
+	font-family: "Pretendard";
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -43,11 +43,36 @@ a:visited {
 	text-decoration: none;
 }
 
+section {
+	width: 100%;
+}
+
 img {
 	width: 100%;
 	height: auto;
 }
 
-#main div {
-	height: 500px;
+h1 {
+	font-size: 5rem;
+	color: #FFF;
+	margin: 3rem 0 15rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+main section {
+	margin-top: 10rem;
+	font-size: 2rem;
+	line-height: 1.8;
+}
+
+.con {
+	width: 100%;
+	overflow: hidden;
+}
+
+.sub-con {
+	text-align: center;
 }

@@ -1,0 +1,31 @@
+#projectintro {
+	.project-pin {
+		padding: 8rem var(--padding);
+		width: 100%;
+		height: 100vh;
+		font-size: 10vw;
+		font-family: 'Pretendard-SemiBold';
+		color: #FFF;
+		line-height: initial;
+		overflow: hidden;
+		position: relative;
+
+		div {
+			white-space: nowrap;
+
+			&:nth-of-type(2) {
+				text-align: right;
+				position: absolute;
+				right: var(--padding);
+				top: 50%;
+			}
+
+			&:nth-of-type(3) {
+				letter-spacing: -4px;
+				position: absolute;
+				left: var(--padding);
+				bottom: 8rem;
+			}
+		}
+	}
+}

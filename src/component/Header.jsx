@@ -17,7 +17,7 @@ const Header = () => {
 		<header id="header">
 			<div className="header-con">
 				<a href="/" className="logo">
-					<img src={Logo}/>
+					<img src={Logo} alt="로고"/>
 				</a>
 				<nav className="navi navi-wide">
 					<ul>
